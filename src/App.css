@@ -1,0 +1,13 @@
+@keyframes borderGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-borderGradient {
+  animation: borderGradient 3s linear infinite;
+  background-size: 300% 300%;
+}
